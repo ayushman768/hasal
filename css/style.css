@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container {
+    margin: 0 38px
+}
+
+body {
+    background-color: #d7dcdd;
+    font-family: Larsseit, Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: default;
+    -moz-column-rule: 2px solid red;
+    -ms-column-rule: 2px solid red;
+    -webkit-column-rule: 2px solid red;
+    column-rule: 2px solid red;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.col-md-12,
+.col-md-3,
+.col-md-4,
+.col-md-6 {
+    float: left
+}
+
+.col-md-3 {
+    width: 25%
+}
+
+.col-md-4 {
+    width: 33.333%
+}
+
+.col-md-6 {
+    width: 50%
+}
+
+.col-md-12 {
+    width: 100%
+}
+
+.list-style {
+    list-style: none
+}
+
+.text-decoration {
+    text-decoration: none
+}
+
+.color-white {
+    color: #fff!important
+}
+
+.color-headings {
+    color: #d7dcdd
+}
+
+.color-1 {
+    font-family: 'Cambon demi', Georgia, sans-serif;
+    color: #d7dcdd
+}
+
+.vid-text {
+    position: relative;
+    margin: 86px 0 150px 0
+}
+
+.color-black {
+    color: #000
+}
+
+.font-size {
+    font-size: 15px
+}
+
+.font-size-2 {
+    font-size: 56px
+}
+
+.font-size-3 {
+    font-size: 35px
+}
+
+.display {
+    display: block
+}
+
+.text-center {
+    text-align: center
+}
+
+.border-right {
+    border-right: 1px solid rgba(0, 0, 0, .23)
+}
+
+.font-family {
+    font-family: Roboto, sans-serif
+}
+
+.line-height {
+    line-height: 1.2
+}
+
+.line-height-2 {
+    line-height: 2.1
+}
+
+.letter-spacing {
+    letter-spacing: 2
+}
+
+.li-margin {
+    margin: 17px 10px
+}
+
+.ul-margin {
+    margin: 29px 0 17px 0
+}
+
+.bg-black {
+    background-color: #000
+}
+
+.vertical-align {
+    vertical-align: text-bottom
+}
+
+.display-inline {
+    display: inline-block
+}
+
+.button {
+    padding: 5px;
+    background: rgba(120, 120, 120, .98);
+    margin: 1px 0;
+    position: relative;
+    z-index: 20
+}
+
+.text-2 {
+    position: absolute;
+    top: 302px;
+    left: 48px
+}
+
+.button:hover {
+    background: rgba(182, 176, 176, .98);
+    transition: .4s
+}
+
+.active {
+    transition: .4s;
+    text-decoration: underline solid #fff
+}
+
+.bg-image-1,
+.bg-image-2 {
+    height: 85vh;
+    background-color: #0c0d0d;
+    background-image: url(https://assets.website-files.com/5e9f3b7fa77e7f9ad2a67aa2/5ea0b06e1bf6a55e3a399581_pattern-mesh-dark.png);
+    background-position: 0 0;
+    background-size: 297px;
+    background-attachment: fixed
+}
+
+.bg-image-2 {
+    height: 75%
+}
+
+.padding {
+    padding: 5px
+}
+
+.padding-10 {
+    padding: 10px
+}
+
+.hover:hover {
+    color: red!important;
+    padding: 0 5px;
+    transition: .4s;
+    text-decoration: underline solid #fff
+}
+
+.heading-img {
+    margin: 15px 0
+}
+
+.image {
+    background-image: url(https://assets.website-files.com/5e9f3b7fa77e7f9ad2a67aa2/5e9f6997748507466e24df66_home-marquee%20image.jpg);
+    height: 87%;
+    width: 78%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 147px;
+    top: 57px;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, .4)
+}
+
+.para-2 {
+    width: 50%;
+    margin: 0 auto
+}
+
+.display-flax {
+    display: flex;
+    position: relative;
+    left: 77px;
+    right: 50px
+}
+
+.glass-img {
+    height: 150px;
+    object-fit: cover
+}
+
+.font-weight {
+    font-weight: 900
+}
+
+.image-2 {
+    background-image: url(https://assets.website-files.com/5e9f3b7fa77e7f9ad2a67aa2/5ea0a3d5ffcc13ef0740ce30_home-frames.jpg);
+    height: 83%;
+    width: 91%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+    object-fit: cover;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, .4)
+}
+
+.position {
+    position: relative;
+    z-index: 6
+}
+
+.first {
+    margin: 20px 0
+}
+
+.down-head {
+    line-height: 1.2;
+    z-index: 99999;
+    position: relative;
+    margin: 98px 0;
+    width: 132%
+}
+
+.margin-btm {
+    margin-bottom: 32px
+}
+
+.banner {
+    position: absolute;
+    right: 12;
+    top: 12
+}
+
+.main-head {
+    top: 0;
+    position: absolute;
+    left: 44px;
+    right: 50px
+}
+
+.flat-1 {
+    height: 120px;
+    padding: 10px
+}
+
+.flat-heading {
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-family: 'Cambon demi', Georgia, sans-serif;
+    color: #0c0d0d;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700
+}
+
+.flat-div {
+    font-family: Jost, sans-serif;
+    font-family: Roboto, sans-serif
+}
+
+.look {
+    margin: 114px 0 21px 0
+}
+
+.para-1 {
+    margin: 9px 0 29px 0
+}
+
+.goto-text,
+.goto-text-1 {
+    background-image: url(https://assets.website-files.com/5e9f3b7fa77e7f9ad2a67aa2/5ea0718fd22f115c64e34d30_home-location.jpg);
+    height: 78%;
+    width: 95%;
+    backkground-size: auto cover;
+    object-fit: cover;
+    background-position: center;
+    align-items: flex-start;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, .4);
+    background-size: cover
+}
+
+.goto-text-1 {
+    background-image: url(https://assets.website-files.com/5e9f3b7fa77e7f9ad2a67aa2/5ea0718f9553387c50fa40cf_home-app.jpg)
+}
+
+.img-text {
+    position: relative;
+    top: 310px
+}
+
+.goto-text {
+    left: auto;
+    right: -11px;
+    position: relative
+}
+
+.goto-text-1 {
+    right: auto;
+    left: 13px;
+    position: relative
+}
+
+.img-btn {
+    background: #d7e3f1
+}
+
+.img-btn:hover {
+    background: #8d949d;
+    transition: .4s
+}
+
+.text-slide {
+    background-color: #0c0d0d;
+    background-image: url(https://assets.website-files.com/5e9f3b7fa77e7f9ad2a67aa2/5ea076cdd22f116e11e38c68_home-optician.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 75%;
+    width: 100%;
+    object-fit: cover
+}
+
+.text-top {
+    position: absolute;
+    display: inline-block
+}
+
+.font-size-4 {
+    font-size: 20px
+}
+
+.slide {
+    margin: 100px 0 0 25px;
+    height: 650px;
+    width: 96%
+}
+
+.inline-image {
+    height: 200px;
+    top: 0;
+    position: relative
+}
+
+.bg-more {
+    display: inline-flex;
+    position: absolute;
+    width: 25%
+}
+
+.text-img {
+    height: 200px;
+    margin: 0 20px
+}
+
+.slide-2 {
+    margin: 93px 0 0 28px;
+    height: 629px;
+    left: 0;
+    right: 0;
+    position: relative;
+    width: 95%;
+    background-color: #fff;
+    height: 55%
+}
+
+.margin-para {
+    margin: 89px 132px 82px 5px
+}
+
+.layer {
+    background: rgba(0, 0, 0, .66)
+}
+
+.vid {
+    background-image: url(https://assets.website-files.com/5e9f3b7fa77e7f9ad2a67aa2/5ea0a3d6e2ce991cd44780f7_home-mission%20park.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%
+}
+
+video {
+    background-image: url('https://assets.website-files.com/5e9f3b7…/5ea0a2b…_Made in SF-poster-00001.jpg');
+    width: 76%;
+    position: relative;
+    top: 84px
+}
+
+.absolute {
+    position: absolute;
+    top: 132
+}
+
+.footer-height {
+    height: 50%
+}
+
+.maine-3 {
+    position: relative;
+    top: 133px;
+    width: 64%
+}
+
+footer {
+    margin: -245px 0 0 0
+}

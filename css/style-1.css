@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container {
+    margin: 0 38px
+}
+
+body {
+    background-color: #d7dcdd;
+    font-family: Larsseit, Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: default;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.col-md-12,
+.col-md-3,
+.col-md-4,
+.col-md-6 {
+    float: left
+}
+
+.col-md-3 {
+    width: 25%
+}
+
+.col-md-4 {
+    width: 33.333%
+}
+
+.col-md-6 {
+    width: 50%
+}
+
+.col-md-12 {
+    width: 100%
+}
+
+.list-style {
+    list-style: none
+}
+
+.text-decoration {
+    text-decoration: none
+}
+
+.color-white {
+    color: #fff!important
+}
+
+.color-headings {
+    color: #d7dcdd
+}
+
+.color-1 {
+    font-family: 'Cambon demi', Georgia, sans-serif;
+    color: #d7dcdd
+}
+
+.vid-text {
+    position: relative;
+    margin: 86px 0 150px 0
+}
+
+.color-black {
+    color: #000
+}
+
+.font-size {
+    font-size: 15px
+}
+
+.font-size-2 {
+    font-size: 56px
+}
+
+.font-size-3 {
+    font-size: 35px
+}
+
+.display {
+    display: block
+}
+
+.text-center {
+    text-align: center
+}
+
+.border-right {
+    border-right: 1px solid rgba(0, 0, 0, .23)
+}
+
+.font-family {
+    font-family: Roboto, sans-serif
+}
+
+.line-height {
+    line-height: 1.2
+}
+
+.line-height-2 {
+    line-height: 2.1
+}
+
+.letter-spacing {
+    letter-spacing: 2
+}
+
+.li-margin {
+    margin: 17px 10px
+}
+
+.ul-margin {
+    margin: 29px 0 17px 0
+}
+
+.bg-black {
+    background-color: #000;
+    height: 53vh;
+}
+
+.vertical-align {
+    vertical-align: text-bottom
+}
+
+.display-inline {
+    display: inline-block
+}
+
+.button {
+    padding: 5px;
+    background: rgba(120, 120, 120, .98);
+    margin: 1px 0;
+    position: relative;
+    z-index: 20
+}
+
+.z-index {
+    position: relative;
+    z-index: 6;
+}
+
+.text-2 {
+    position: absolute;
+    top: 302px;
+    left: 48px
+}
+
+.button:hover {
+    background: rgba(182, 176, 176, .98);
+    transition: .4s
+}
+
+.bg-image-1,
+.bg-image-2 {
+    height: 53vh;
+    background-color: #0c0d0d;
+    background-image: url(https://assets.website-files.com/5e9f3b7fa77e7f9ad2a67aa2/5ea0b06e1bf6a55e3a399581_pattern-mesh-dark.png);
+    background-position: 0 0;
+    background-size: 297px;
+    background-attachment: fixed
+}
+
+.bg-image-2 {
+    height: 75%
+}
+
+.line-height {
+    line-height: 1.2;
+    width: 124%;
+    margin: 40px 0px;
+}
+
+.logo {
+    top: 0;
+    position: absolute;
+    left: 44px;
+    right: 50px;
+}
+
+.padding {
+    padding: 5px
+}
+
+.padding-10 {
+    padding: 10px
+}
+
+.active {
+    /* padding: 0 5px; */
+    transition: .4s;
+    text-decoration: underline solid #fff
+}
+
+.hover:hover {
+    color: red!important;
+    padding: 0 5px;
+    transition: .4s;
+}
+
+.heading-img {
+    margin: 15px 0
+}
+
+.bg-image-mid {
+    background-image: url(https://assets.website-files.com/5e9f3b7fa77e7f9ad2a67aa2/5ea34bf3e2570010729110e1_fitted-marquee.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 368px;
+    width: 79%;
+    position: absolute;
+    top: 5-;
+    top: 68px;
+    left: 144px;
+    right: 45px;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, .4);
+}
+
+.type .line-height-2 {
+    line-height: 2.2;
+}
+
+.para-margin {
+    margin: 0px 23px
+}
+
+.center {
+    position: relative;
+    top: 120px;
+}
+
+.down-head {
+    position: absolute;
+    z-index: 999;
+    width: 40%;
+}
+
+.section-top-btm {
+    margin: 168px 0px;
+}
+
+.back {
+    position: relative;
+    height: 368px;
+    background: rgba(0, 0, 0, 0.68);
+}
+
+.flat-1 {
+    height: 94px;
+    padding: 10px;
+}
+
+.look {
+    background-color: white;
+}
+
+.shodow {
+    margin: 321px 145px;
+    padding: 10px;
+    box-shadow: 0 40px 50px 0 rgba(0, 0, 0, .4);
+}
+
+.footer-height {
+    height: 50%
+}
+
+.maine-3 {
+    position: relative;
+    top: 133px;
+    width: 64%
+}
+
+footer {
+    margin: -245px 0 0 0
+}
+
+.btn {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1;
+    background-color: rgb(189, 50, 53);
+    position: relative;
+    top: 60px;
+}
